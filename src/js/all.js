@@ -101,7 +101,7 @@ document.addEventListener(
 	},
 	false
 );
-if (location.pathname.substring(1).includes("/") && localStorage.getItem("selenite.blockClose") == "true") {
+if (location.pathname.substring(1).includes("/") && localStorage.getItem("syndicate.blockClose") == "true") {
 	window.addEventListener("beforeunload", (e) => {
 		e.preventDefault();
 		e.returnValue = "";
@@ -109,7 +109,7 @@ if (location.pathname.substring(1).includes("/") && localStorage.getItem("seleni
 	}, true);
 }
 addEventListener("visibilitychange", (e) => {
-	if (localStorage.getItem("selenite.tabDisguise") == "true") {
+	if (localStorage.getItem("syndicate.tabDisguise") == "true") {
 		if (document.visibilityState === "hidden") {
 			setCloak("Google", "https://www.google.com/favicon.ico");
 		} else {
@@ -166,13 +166,13 @@ let enc = {
 		);
 	},
 };
-if (localStorage.getItem("selenite.password")) {
+if (localStorage.getItem("syndicate.password")) {
 	if (!location.hash) {
-		location.hash = localStorage.getItem("selenite.password");
+		location.hash = localStorage.getItem("syndicate.password");
 	}
 }
-if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))) {
-	if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))[0] == false && Math.floor(Date.now() / 1000) - JSON.parse(localStorage.getItem("selenite.passwordAtt"))[1] < 600) {
+if (JSON.parse(localStorage.getItem("syndicate.passwordAtt"))) {
+	if (JSON.parse(localStorage.getItem("syndicate.passwordAtt"))[0] == false && Math.floor(Date.now() / 1000) - JSON.parse(localStorage.getItem("syndicate.passwordAtt"))[1] < 600) {
 		location.href = "https://google.com";
 	}
 }
@@ -181,27 +181,27 @@ if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))) {
 if (location.hash) {
 	let temp;
 	if(!location.pathname.includes("gba")) {
-		localStorage.setItem("selenite.password", location.hash.substring(1));
-		if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))) {
-			if (JSON.parse(localStorage.getItem("selenite.passwordAtt"))[0] == true && Math.floor(Date.now() / 1000) - JSON.parse(localStorage.getItem("selenite.passwordAtt"))[1] < 600) {
+		localStorage.setItem("syndicate.password", location.hash.substring(1));
+		if (JSON.parse(localStorage.getItem("syndicate.passwordAtt"))) {
+			if (JSON.parse(localStorage.getItem("syndicate.passwordAtt"))[0] == true && Math.floor(Date.now() / 1000) - JSON.parse(localStorage.getItem("syndicate.passwordAtt"))[1] < 600) {
 				console.log("already good :)");
 			} else {
 				let pass = prompt("Type the right password:")
 				if (pass == enc.decode(location.hash.substring(1)) || pass == "tempgbafix") {
-					localStorage.setItem("selenite.passwordAtt", `[true,${Math.floor(Date.now() / 1000)}]`);
+					localStorage.setItem("syndicate.passwordAtt", `[true,${Math.floor(Date.now() / 1000)}]`);
 					console.log("Correct password!");
 				} else {
-					localStorage.setItem("selenite.passwordAtt", `[false,${Math.floor(Date.now() / 1000)}]`);
+					localStorage.setItem("syndicate.passwordAtt", `[false,${Math.floor(Date.now() / 1000)}]`);
 					location.href = "https://google.com";
 				}
 			}
 		} else {
 			let pass = prompt("Type the right password:")
 			if (pass == enc.decode(location.hash.substring(1)) || pass == "tempgbafix") {
-				localStorage.setItem("selenite.passwordAtt", `[true,${Math.floor(Date.now() / 1000)}]`);
+				localStorage.setItem("syndicate.passwordAtt", `[true,${Math.floor(Date.now() / 1000)}]`);
 				console.log("Correct password!");
 			} else {
-				localStorage.setItem("selenite.passwordAtt", `[false,${Math.floor(Date.now() / 1000)}]`);
+				localStorage.setItem("syndicate.passwordAtt", `[false,${Math.floor(Date.now() / 1000)}]`);
 				location.href = "https://google.com";
 			}
 		}
