@@ -1,3 +1,4 @@
 <div align="center">
-  <img src="https://i.imgur.com/8BgVXcY.png">
-</div>music program
+  <img src="https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png">
+</div>
+music program
