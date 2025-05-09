@@ -12,7 +12,7 @@
 # <p align="center">Syndicate Music.</p>
 
 <div align="center">
-    A free RESTful API serving anime information from <a href="https://hianime.to" target="_blank">hianime.to</a>
+    Music creating Program in browser. (No download needed) <a href="https://syndicatemusic.github.io" target="_blank">Syndicate Music</a>
 
   <br/>
 
