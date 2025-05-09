@@ -1,2 +1,2 @@
-# <div>![syndicate](https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png)</div>
+# <div style="align-items:center;">![syndicate](https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png)</div>
 music program
