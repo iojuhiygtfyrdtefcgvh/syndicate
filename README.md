@@ -61,7 +61,7 @@
 
 ## <span id="development">👨‍💻 Development</span>
 
-Pull requests and stars are always welcome. If you encounter any bug or want to add a new feature to this api, consider creating a new [issue](https://github.com/syndicatemusic/syndicatemusic.github.io/issues). If you wish to contribute to this project, be sure to email me.
+Pull requests and stars are always welcome. If you encounter any bug or want to add a new feature to this website, consider creating a new [issue](https://github.com/syndicatemusic/syndicatemusic.github.io/issues). If you wish to contribute to this project, be sure to email me.
 
 ## <span id="contributors">✨ Contributors</span>
 
