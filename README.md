@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/ghoshRitesh12/aniwatch-api">
         <img 
-            src="https://raw.githubusercontent.com/ghoshRitesh12/aniwatch-api/refs/heads/main/public/img/hianime_v2.png" 
+            src="https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png" 
             alt="aniwatch_logo" 
             width="175" 
             height="175"
@@ -11,7 +11,7 @@
     </a>
 </p>
 
-# <p align="center">Aniwatch API</p>
+# <p align="center">Syndicate Music.</p>
 
 <div align="center">
     A free RESTful API serving anime information from <a href="https://hianime.to" target="_blank">hianime.to</a>
