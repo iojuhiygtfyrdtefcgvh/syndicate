@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/ghoshRitesh12/aniwatch-api">
+    <a href="https://github.com/syndicatemusic/syndicatemusic.github.io">
         <img 
             src="https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png" 
             alt="aniwatch_logo" 
@@ -18,13 +18,13 @@
 
   <div>
     <a 
-      href="https://github.com/ghoshRitesh12/aniwatch-api/issues/new?assignees=ghoshRitesh12&labels=bug&template=bug-report.yml"
+      href="https://github.com/syndicatemusic/syndicatemusic.github.io/issues/new?assignees=ghoshRitesh12&labels=bug&template=bug-report.yml"
     > 
       Bug report
     </a>
     ·
     <a 
-      href="https://github.com/ghoshRitesh12/aniwatch-api/issues/new?assignees=ghoshRitesh12&labels=enhancement&template=feature-request.md"
+      href="https://github.com/syndicatemusic/syndicatemusic.github.io/issues/new?assignees=ghoshRitesh12&labels=enhancement&template=feature-request.md"
     >
       Feature request
     </a>
@@ -35,19 +35,19 @@
 
 <div align="center">
 
-[![codeql](https://github.com/ghoshRitesh12/aniwatch-api/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ghoshRitesh12/aniwatch-api/actions/workflows/codeql-analysis.yml)
-[![docker-build](https://github.com/ghoshRitesh12/aniwatch-api/actions/workflows/docker-build.yml/badge.svg)](https://github.com/ghoshRitesh12/aniwatch-api/actions/workflows/docker-build.yml)
-[![test_coverage](https://github.com/ghoshRitesh12/aniwatch-api/actions/workflows/test.yml/badge.svg)](https://github.com/ghoshRitesh12/aniwatch-api/actions/workflows/test.yml)
-[![GitHub License](https://img.shields.io/github/license/ghoshRitesh12/aniwatch-api?logo=github&logoColor=%23959da5&labelColor=%23292e34&color=%2331c754)](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/LICENSE)
+[![codeql](https://github.com/syndicatemusic/syndicatemusic.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/syndicatemusic/syndicatemusic.github.io/actions/workflows/codeql-analysis.yml)
+[![docker-build](https://github.com/syndicatemusic/syndicatemusic.github.io/actions/workflows/docker-build.yml/badge.svg)](https://github.com/syndicatemusic/syndicatemusic.github.io/actions/workflows/docker-build.yml)
+[![test_coverage](https://github.com/syndicatemusic/syndicatemusic.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/syndicatemusic/syndicatemusic.github.io/actions/workflows/test.yml)
+[![GitHub License](https://img.shields.io/github/license/syndicatemusic/syndicatemusic.github.io?logo=github&logoColor=%23959da5&labelColor=%23292e34&color=%2331c754)](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/LICENSE)
 
 </div>
 
 <div align="center">
 
-[![stars](https://img.shields.io/github/stars/ghoshRitesh12/aniwatch-api?style=social)](https://github.com/ghoshRitesh12/aniwatch-api/stargazers)
-[![forks](https://img.shields.io/github/forks/ghoshRitesh12/aniwatch-api?style=social)](https://github.com/ghoshRitesh12/aniwatch-api/network/members)
-[![issues](https://img.shields.io/github/issues/ghoshRitesh12/aniwatch-api?style=social&logo=github)](https://github.com/ghoshRitesh12/aniwatch-api/issues?q=is%3Aissue+is%3Aopen+)
-[![version](https://img.shields.io/github/v/release/ghoshRitesh12/aniwatch-api?display_name=release&style=social&logo=github)](https://github.com/ghoshRitesh12/aniwatch-api/releases/latest)
+[![stars](https://img.shields.io/github/stars/syndicatemusic/syndicatemusic.github.io?style=social)](https://github.com/syndicatemusic/syndicatemusic.github.io/stargazers)
+[![forks](https://img.shields.io/github/forks/syndicatemusic/syndicatemusic.github.io?style=social)](https://github.com/syndicatemusic/syndicatemusic.github.io/network/members)
+[![issues](https://img.shields.io/github/issues/syndicatemusic/syndicatemusic.github.io?style=social&logo=github)](https://github.com/syndicatemusic/syndicatemusic.github.io/issues?q=is%3Aissue+is%3Aopen+)
+[![version](https://img.shields.io/github/v/release/syndicatemusic/syndicatemusic.github.io?display_name=release&style=social&logo=github)](https://github.com/syndicatemusic/syndicatemusic.github.io/releases/latest)
 
 </div>
 
@@ -97,7 +97,7 @@
 1. Clone the repository and move into the directory.
 
     ```bash
-    git clone https://github.com/ghoshRitesh12/aniwatch-api.git
+    git clone https://github.com/syndicatemusic/syndicatemusic.github.io.git
     cd aniwatch-api
     ```
 
@@ -117,7 +117,7 @@
 
 ### Docker
 
-The Docker image is available at [The GitHub Container Registry](https://github.com/ghoshRitesh12/aniwatch-api/pkgs/container/aniwatch).
+The Docker image is available at [The GitHub Container Registry](https://github.com/syndicatemusic/syndicatemusic.github.io/pkgs/container/aniwatch).
 
 Run the following commands to pull and run the docker image.
 
@@ -139,7 +139,7 @@ Currently this API supports parsing of only one custom header, and more may be i
 
 ### Environment Variables
 
-More info can be found in the [`.env.example`](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/.env.example) file, where envs' having a value that is contained within `<` `>` angled brackets, commented out or not, are just examples and should be replaced with relevant ones.
+More info can be found in the [`.env.example`](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/.env.example) file, where envs' having a value that is contained within `<` `>` angled brackets, commented out or not, are just examples and should be replaced with relevant ones.
 
 - `ANIWATCH_API_PORT`: port number of the aniwatch API.
 - `ANIWATCH_API_WINDOW_MS`: duration to track requests for rate limiting (in milliseconds).
@@ -159,13 +159,13 @@ More info can be found in the [`.env.example`](https://github.com/ghoshRitesh12/
 >
 > - If you want to have rate limiting in your application, then set the `ANIWATCH_API_HOSTNAME` env to your deployed instance's hostname; otherwise, don't set or have this env at all. If you set this env to an incorrect value, you may face other issues.
 > - It's optional by default, but if you want to have endpoint response caching functionality, then set the `ANIWATCH_API_REDIS_CONN_URL` env to a valid Redis connection URL. If the connection URL is invalid, the Redis client can throw unexpected errors.
-> - Remove the if block from the [`server.ts`](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/src/server.ts) file, spanning from lines [61](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/src/server.ts#L61) to [85](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/src/server.ts#L85).
+> - Remove the if block from the [`server.ts`](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/src/server.ts) file, spanning from lines [61](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/src/server.ts#L61) to [85](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/src/server.ts#L85).
 
 ### Vercel
 
 Deploy your own instance of Aniwatch API on Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ghoshRitesh12/aniwatch-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/syndicatemusic/syndicatemusic.github.io)
 
 > [!NOTE]
 >
@@ -175,7 +175,7 @@ Deploy your own instance of Aniwatch API on Vercel.
 
 Deploy your own instance of Aniwatch API on Render.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ghoshRitesh12/aniwatch-api)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/syndicatemusic/syndicatemusic.github.io)
 
 ## <span id="documentation">📚 Documentation</span>
 
@@ -1325,7 +1325,7 @@ console.log(data);
 
 ## <span id="development">👨‍💻 Development</span>
 
-Pull requests and stars are always welcome. If you encounter any bug or want to add a new feature to this api, consider creating a new [issue](https://github.com/ghoshRitesh12/aniwatch-api/issues). If you wish to contribute to this project, read the [CONTRIBUTING.md](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/CONTRIBUTING.md) file.
+Pull requests and stars are always welcome. If you encounter any bug or want to add a new feature to this api, consider creating a new [issue](https://github.com/syndicatemusic/syndicatemusic.github.io/issues). If you wish to contribute to this project, read the [CONTRIBUTING.md](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/CONTRIBUTING.md) file.
 
 ## <span id="contributors">✨ Contributors</span>
 
@@ -1344,7 +1344,7 @@ Don't forget to leave a star 🌟. You can also follow me on X (Twitter) [@rites
 
 ## <span id="license">📜 License</span>
 
-This project is licensed under the [MIT License](https://opensource.org/license/mit/) - see the [LICENSE](https://github.com/ghoshRitesh12/aniwatch-api/blob/main/LICENSE) file for more details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/) - see the [LICENSE](https://github.com/syndicatemusic/syndicatemusic.github.io/blob/main/LICENSE) file for more details.
 
 <br/>
 
