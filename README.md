@@ -3,7 +3,7 @@
         <img 
             src="https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png" 
             alt="aniwatch_logo" 
-            width="175" 
+            width="100" 
             height="175"
             decoding="async"
             fetchpriority="high"
