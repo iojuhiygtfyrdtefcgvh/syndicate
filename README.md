@@ -68,7 +68,7 @@ Pull requests and stars are always welcome. If you encounter any bug or want to 
 Thanks to the following people for keeping this project alive and relevant.
 
 [![](https://contrib.rocks/image?repo=syndicatemusic/syndicatemusic.github.io)](https://github.com/syndicatemusic/syndicatemusic.github.io/graphs/contributors)
-
+ 
 ## <span id="thanks">🤝 Thanks</span>
 
 - [consumet.ts](https://github.com/consumet/consumet.ts)
