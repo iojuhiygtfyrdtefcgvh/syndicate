@@ -12,7 +12,7 @@
 # <p align="center">Syndicate Music.</p>
 
 <div align="center">
-    Music creating Program in browser. (No download needed) <a href="https://syndicatemusic.github.io" target="_blank">Syndicate Music</a>
+    Music creating Program in browser. (No download needed)
 
   <br/>
 
