@@ -13,11 +13,11 @@ body[theme=custom] {
     --bg: #10002b;
 }
 body[theme=main] {
-    --inputbg: #B1F8F2;
-    --inputborder: #B7FDFE;
-    --uibg: #86BA90;
-    --textcolor: #272727;
-    --bg: #F2EFC7;
+    --inputbg: #342A21;
+    --inputborder: #FF3E41;
+    --uibg: #000004;
+    --textcolor: #fff;
+    --bg: #131112;
 }
 body[theme=light] {
     --inputbg: #CCCCCC;
