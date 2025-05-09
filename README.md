@@ -76,7 +76,7 @@ Thanks to the following people for keeping this project alive and relevant.
 
 ## <span id="support">🙌 Support</span>
 
-Don't forget to leave a star 🌟. You can also follow me on X (Twitter) [@riteshgsh](https://x.com/riteshgsh).
+Don't forget to leave a star 🌟. Donate to the cause! You can also follow me on the socials page!
 
 ## <span id="license">📜 License</span>
 
