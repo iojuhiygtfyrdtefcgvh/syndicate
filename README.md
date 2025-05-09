@@ -1,2 +1,3 @@
-# <div style="align-items:center;">![syndicate](https://github.com/iojuhiygtfyrdtefcgvh/syndicate/blob/main/images/title.png)</div>
-music program
+<div align="center">
+  <img src="https://i.imgur.com/8BgVXcY.png">
+</div>music program
